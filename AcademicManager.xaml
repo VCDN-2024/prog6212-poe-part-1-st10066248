@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="AcademicManager" Height="450" Width="800">
     <Grid>
-        
+        <Label Content="Payment Approval" HorizontalAlignment="Left" Margin="300,33,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift Light Condensed" FontSize="36"/>
+        <ComboBox HorizontalAlignment="Left" Margin="360,166,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.46,1.112"/>
+        <Button Content="View Pending Approvals" HorizontalAlignment="Left" Margin="344,130,0,0" VerticalAlignment="Top" Width="152" Background="#FFEA2121"/>
+        <Button Content="APPROVE" HorizontalAlignment="Left" Margin="374,304,0,0" VerticalAlignment="Top" Width="92" RenderTransformOrigin="0.635,0.103" Background="#FFEA2121" Height="30"/>
+
     </Grid>
 </Window>
